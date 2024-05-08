@@ -1,0 +1,66 @@
+@import url('https://fonts.google.com/specimen/Jaro');
+footer {
+    margin-top: 20px;
+    border-top: 1px solid #090dc2;
+    text-align: center;
+}
+
+body {
+    font-family: var(--paragrahp-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #964b00;
+    --accent-color: #f7dc6f;
+    --additional-accent-color: #212121;
+    --heading-font: 'Montserrat', sans-serif;
+    --paragraph-font: 'Lato', sans-serif;
+    --anvigation-background-color: #333;
+    --navigation-link-color: #fff;
+    --navigation-hover-link-color: #ccc;
+    --navigation-hover-background-color: #444;
+}
+
+body {
+    font-family: var(--paragrahp-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent-color);
+}
+
+p {
+    padding: 5px;
+}
+
+nav {
+    background-color: var(--navigation-background-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+   
+nav a {
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+}
+
+/* https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap */
+
