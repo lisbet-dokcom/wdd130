@@ -14,11 +14,11 @@ body {
 :root {
     --primary-color: #3498db;
     --secondary-color: #964b00;
-    --accent-color: #f7dc6f;
-    --additional-accent-color: #212121;
+    --accent1-color: #f7dc6f;
+    --accent2-color: #212121;
     --heading-font: 'Montserrat', sans-serif;
     --paragraph-font: 'Lato', sans-serif;
-    --anvigation-background-color: #333;
+    --navigation-background-color: #333;
     --navigation-link-color: #fff;
     --navigation-hover-link-color: #ccc;
     --navigation-hover-background-color: #444;
@@ -50,7 +50,6 @@ nav {
     text-align: center;
 }
 
-   
 nav a {
     color: var(--navigation-link-color);
     text-decoration: none;
