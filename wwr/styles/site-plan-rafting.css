@@ -18,10 +18,10 @@ body {
     --accent2-color: #212121;
     --heading-font: 'Montserrat', sans-serif;
     --paragraph-font: 'Lato', sans-serif;
-    --navigation-background-color: #333;
-    --navigation-link-color: #fff;
-    --navigation-hover-link-color: #ccc;
-    --navigation-hover-background-color: #444;
+    --nav-background-color: #333;
+    --nav-link-color: #fff;
+    --nav-hover-link-color: #ccc;
+    --nav-hover-background-color: #444;
 }
 
 body {
@@ -37,7 +37,7 @@ h1 h2 h3 h4 h5 h6 {
 
 header {
     padding: 20px;
-    background-color: var(--accent-color);
+    background-color: var(--accent1-color);
 }
 
 p {
@@ -45,20 +45,20 @@ p {
 }
 
 nav {
-    background-color: var(--navigation-background-color);
+    background-color: var(--nav-background-color);
     padding: 1rem;
     text-align: center;
 }
 
 nav a {
-    color: var(--navigation-link-color);
+    color: var(--nav-link-color);
     text-decoration: none;
     transition: color 0.2s ease;
 }
 
 nav a:hover {
-    color: var(--navigation-hover-link-color);
-    background-color: var(--navigation-hover-background-color);
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 /* https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap */
