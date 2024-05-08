@@ -30,7 +30,7 @@ body {
     padding: 20px;
 }
 
-h1 h2 h3 h4 h5 h6 {
+h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
@@ -56,10 +56,22 @@ nav a {
     transition: color 0.2s ease;
 }
 
+nav a:link {
+    color: var(--nav-link-color);
+    background-color: var(--nav-background-color);
+}
+
+nav a:visited {
+    color: var(--accent2-color);
+    background-color: var(--nav-background-color);
+}
+
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
 }
+
+
 
 /* https://fonts.googleapis.com/css2?family=font-name&family=optional-2nd-font-name&display=swap */
 
