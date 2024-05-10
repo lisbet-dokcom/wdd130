@@ -68,7 +68,3 @@ footer {
     background-color: whitesmoke;
     color: #333
 }
-
-
-Using CSS absolute positioning, overlay the the state/country heading element on the image within the aside element.
-This means that you will need to set the container, aside, to have a position: relative; declaration.
