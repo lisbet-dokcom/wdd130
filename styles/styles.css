@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    max-width: 960px;
 }
+
 
 nav {
     background-color: steelblue;
@@ -16,6 +18,9 @@ nav a {
 }
 
 h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
     color: steelblue;
 }
 
@@ -34,7 +39,8 @@ main {
 }
 
 p {
-    padding: 0;
+    padding: 5px;
+    margin: 10px;
 }
 
 aside {
@@ -63,8 +69,10 @@ footer {
 /* Class Selectors */
 .box {
     margin: 1rem;
+    max-width: 700px;
     border: 1px solid black;
     padding: 1rem;
     background-color: whitesmoke;
     color: #333
+    
 }
