@@ -1,20 +1,24 @@
 * {
     margin: 0;
     padding: 0;
+    max-width: 940px;
     box-sizing: border-box;
-    max-width: 960px;
 }
-
 
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }   
 
 nav a {
     color: white;
     display: block;
     padding: 20px;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 h1 {
@@ -32,10 +36,6 @@ main img {
     box-shadow: 0 0 30px gray;
     float: right;
     margin: 0 0 1rem 1rem;
-}
-
-main {
-    max-width: fit-content;
 }
 
 p {
@@ -76,3 +76,24 @@ footer {
     color: #333
     
 }
+
+header, .grid, footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2;
+}
+
+aside {
+    grid-row: 1;
+}
+
+
+  
