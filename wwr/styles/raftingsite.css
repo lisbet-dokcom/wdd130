@@ -33,33 +33,32 @@ a {
 .hero img {
     display: block;
     width: 100%;
-    height: auto;
 }
 
 h1 {
     position: absolute;
-    top: 315px;
-    left: 150px;
-    font-style: italic;
-    background-color: gainsboro;
-    opacity: 0.8;
+    color: #fff;
+    top: 400px;
+    left: 300px;
+    font-style: oblique;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 3rem;
+    transform: translate(-50px, -50px);
 }
 
 article {
     position: absolute;
-    top: 50%;
-    left: 150px;
-    background-color: var(--nav-background-color);
-    opacity: 0.8;
-    margin: 20px;
-    width: 200px;
-    padding: 10px;
-    height: max-content;
-    border: 1px solid #1450aa;
+    bottom: 10px;
+    width: 69%;
+    left: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    text-align: justify;
 }
 
 article img {
-    position: absolute;
-    top: 10%;
-    left: 200px
+    float: right;
+    max-width: 150px;
+    margin-left: 20px;
 }
+
