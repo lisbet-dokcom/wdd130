@@ -34,37 +34,32 @@ a {
     display: block;
     width: 100%;
     height: auto;
-    position: relative;
 }
 
 h1 {
     position: absolute;
     top: 315px;
-    left: 90px;
-    background-color: #2A2A72;
+    left: 150px;
+    font-style: italic;
+    background-color: gainsboro;
+    opacity: 0.8;
 }
 
 article {
     position: absolute;
     top: 50%;
-    right: 150px;
-    background-color: transparent;
+    left: 150px;
+    background-color: bur;
     opacity: 0.8;
     margin: 20px;
     width: 200px;
     padding: 10px;
     height: max-content;
-    border: 1px solid #232528;
+    border: 1px solid #1450aa;
 }
 
 article img {
     position: absolute;
-    top: 75%;
-    left: 50px;
-    float: left;
-
+    top: 10%;
+    left: 200px
 }
-
-
-    
-
