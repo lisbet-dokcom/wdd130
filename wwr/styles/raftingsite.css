@@ -49,7 +49,7 @@ article {
     position: absolute;
     top: 50%;
     left: 150px;
-    background-color: bur;
+    background-color: var(--nav-background-color);
     opacity: 0.8;
     margin: 20px;
     width: 200px;
