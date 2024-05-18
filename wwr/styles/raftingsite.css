@@ -15,7 +15,13 @@
 
 header {
     padding: 1px;
-    margin: 10px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 50%, 4fr;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: beige;
+    gap: 20px;
 }
 
 p {
@@ -60,5 +66,17 @@ article img {
     float: right;
     max-width: 150px;
     margin-left: 20px;
+}
+
+nav {
+    display: flex;
+    grid-column: 2/8;
+    justify-content: space-around;
+    align-self: center;
+    font-size: 2rem;
+}
+
+section {
+    grid-template-columns: 5fr;
 }
 
