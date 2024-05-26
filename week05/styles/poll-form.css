@@ -81,11 +81,11 @@ button:hover {
     background-color: beige;
 }
 
-/* footer {
+footer {
     margin-top: 20px;
     border-top: 2px solid black;
     text-align: center;
-} */
+}
 
 .form-item {
     display: grid;
@@ -100,11 +100,3 @@ button:hover {
 .column2 {
     grid-template-columns: 1fr, 2fr;
 }
-
-footer {
-    margin: 10px;
-    border: 1px solid #000;
-
-    padding: 10px;
-    background-color: #eee;
-  }
