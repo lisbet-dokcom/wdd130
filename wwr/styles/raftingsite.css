@@ -13,14 +13,12 @@
 }
 
 header {
-    padding: 1px;
-    margin: 20px;
     display: grid;
- 
-    align-items: flex-start;
+    grid-template-columns: repeat(2, 1fr);
     padding: 20px;
     background-color: beige;
     gap: 20px;
+    margin-bottom: 10px;
 }
 
 p {
@@ -56,7 +54,6 @@ article {
     bottom: 10px;
     width: 69%;
     left: 10px;
-    
     padding: 20px;
     text-align: justify;
 }
@@ -69,13 +66,30 @@ article img {
 
 nav {
     display: flex;
-    grid-column: 2/8;
     justify-content: space-around;
     align-self: center;
     font-size: 2rem;
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 section {
     grid-template-columns: 5fr;
 }
 
+.socialinks {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.socialinks a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+.socialinks a:hover {
+    color: var(--accent1-color);
+}
