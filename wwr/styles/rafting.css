@@ -156,15 +156,6 @@ section figure figcaption {
     text-align: center;
 }
 
-header {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 20px;
-    background-color: #eee;
-    gap: 20px;
-    margin-bottom: 10px;
-}
-
 .details {
     border: none;
     margin: 10px auto;
