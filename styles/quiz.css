@@ -27,6 +27,7 @@ form {
     border-radius: 20px;
     background-color: #f0f0f0;
     display: grid;
+    margin-bottom: 10px
 }
 
 fieldset {
@@ -36,11 +37,11 @@ fieldset {
     padding: 1rem;
 }
 
-
 input, select, textarea {
     padding: 10px;
     font-size: larger;
 }
+
 textarea {
     display: flex;
     flex-direction: row;
@@ -52,7 +53,6 @@ button {
    background-color: darkblue;
    color: white;
    font-size: larger;
-   
    border: none;
    padding: 10px;
 }
