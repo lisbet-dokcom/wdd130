@@ -259,7 +259,7 @@ label {
 
 .header3 {
     position: absolute;
-    color: black;
+    color: #eee;
     top: 250px;
     left: 200px;
     font-family: Arial, Helvetica, sans-serif;
@@ -269,7 +269,7 @@ label {
 
 .travel {
     position: absolute;
-    color: black;
+    color: #eee;
     top: 300px;
     left: 260px;
     font-style: italic;
@@ -326,4 +326,44 @@ legend {
     padding: 20px;
     border: 1px solid #ddd;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.trip p {
+       text-align: left;
+    font-weight: 100;
+}
+
+table {
+    border: 2px solid rgb(140 140 140);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin: auto;
+}
+
+thead,
+tfoot {
+  background-color: rgb(228 240 245);
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+tfoot th {
+  text-align: right;
+}
+
+tfoot td {
+  font-weight: bold;
 }
